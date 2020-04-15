@@ -1,0 +1,13 @@
+D:\C#\Beginer\Boolean\bin\Debug\netcoreapp3.1\Boolean.exe
+D:\C#\Beginer\Boolean\bin\Debug\netcoreapp3.1\Boolean.deps.json
+D:\C#\Beginer\Boolean\bin\Debug\netcoreapp3.1\Boolean.runtimeconfig.json
+D:\C#\Beginer\Boolean\bin\Debug\netcoreapp3.1\Boolean.runtimeconfig.dev.json
+D:\C#\Beginer\Boolean\bin\Debug\netcoreapp3.1\Boolean.dll
+D:\C#\Beginer\Boolean\bin\Debug\netcoreapp3.1\Boolean.pdb
+D:\C#\Beginer\Boolean\obj\Debug\netcoreapp3.1\Boolean.csprojAssemblyReference.cache
+D:\C#\Beginer\Boolean\obj\Debug\netcoreapp3.1\Boolean.csproj.CoreCompileInputs.cache
+D:\C#\Beginer\Boolean\obj\Debug\netcoreapp3.1\Boolean.AssemblyInfoInputs.cache
+D:\C#\Beginer\Boolean\obj\Debug\netcoreapp3.1\Boolean.AssemblyInfo.cs
+D:\C#\Beginer\Boolean\obj\Debug\netcoreapp3.1\Boolean.dll
+D:\C#\Beginer\Boolean\obj\Debug\netcoreapp3.1\Boolean.pdb
+D:\C#\Beginer\Boolean\obj\Debug\netcoreapp3.1\Boolean.genruntimeconfig.cache

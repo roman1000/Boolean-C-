@@ -1,0 +1,13 @@
+D:\C#\Beginer\ineger\bin\Debug\netcoreapp3.1\ineger.exe
+D:\C#\Beginer\ineger\bin\Debug\netcoreapp3.1\ineger.deps.json
+D:\C#\Beginer\ineger\bin\Debug\netcoreapp3.1\ineger.runtimeconfig.json
+D:\C#\Beginer\ineger\bin\Debug\netcoreapp3.1\ineger.runtimeconfig.dev.json
+D:\C#\Beginer\ineger\bin\Debug\netcoreapp3.1\ineger.dll
+D:\C#\Beginer\ineger\bin\Debug\netcoreapp3.1\ineger.pdb
+D:\C#\Beginer\ineger\obj\Debug\netcoreapp3.1\ineger.csprojAssemblyReference.cache
+D:\C#\Beginer\ineger\obj\Debug\netcoreapp3.1\ineger.csproj.CoreCompileInputs.cache
+D:\C#\Beginer\ineger\obj\Debug\netcoreapp3.1\ineger.AssemblyInfoInputs.cache
+D:\C#\Beginer\ineger\obj\Debug\netcoreapp3.1\ineger.AssemblyInfo.cs
+D:\C#\Beginer\ineger\obj\Debug\netcoreapp3.1\ineger.dll
+D:\C#\Beginer\ineger\obj\Debug\netcoreapp3.1\ineger.pdb
+D:\C#\Beginer\ineger\obj\Debug\netcoreapp3.1\ineger.genruntimeconfig.cache

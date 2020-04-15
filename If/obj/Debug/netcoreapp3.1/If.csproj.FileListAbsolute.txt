@@ -1,0 +1,13 @@
+D:\C#\Beginer\If\obj\Debug\netcoreapp3.1\If.csproj.CoreCompileInputs.cache
+D:\C#\Beginer\If\obj\Debug\netcoreapp3.1\If.AssemblyInfoInputs.cache
+D:\C#\Beginer\If\obj\Debug\netcoreapp3.1\If.AssemblyInfo.cs
+D:\C#\Beginer\If\obj\Debug\netcoreapp3.1\If.csprojAssemblyReference.cache
+D:\C#\Beginer\If\bin\Debug\netcoreapp3.1\If.exe
+D:\C#\Beginer\If\bin\Debug\netcoreapp3.1\If.deps.json
+D:\C#\Beginer\If\bin\Debug\netcoreapp3.1\If.runtimeconfig.json
+D:\C#\Beginer\If\bin\Debug\netcoreapp3.1\If.runtimeconfig.dev.json
+D:\C#\Beginer\If\bin\Debug\netcoreapp3.1\If.dll
+D:\C#\Beginer\If\bin\Debug\netcoreapp3.1\If.pdb
+D:\C#\Beginer\If\obj\Debug\netcoreapp3.1\If.dll
+D:\C#\Beginer\If\obj\Debug\netcoreapp3.1\If.pdb
+D:\C#\Beginer\If\obj\Debug\netcoreapp3.1\If.genruntimeconfig.cache
