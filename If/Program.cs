@@ -6,22 +6,14 @@ namespace If
     {
         static void Main()
         {
-            if19();
+            if30();
         }
 
         static void if1()
         {
             int a = -50;
 
-            if (a > 0)
-            {
-                Console.WriteLine(a);
-            }
-            else
-            {
-                a++;
-                Console.WriteLine(a);
-            }
+          //  a = (a > 0) ? a + 1 : Console.WriteLine(a);
         }
         static void if2()
         {
@@ -30,13 +22,15 @@ namespace If
             if (a > 0)
             {
                 a++;
-                Console.WriteLine(a);
+            
             }
             else
             {
                 a -= 2;
-                Console.WriteLine(a);
+               
             }
+
+            Console.WriteLine(a);
         }
         static void if3()
         {
@@ -80,10 +74,10 @@ namespace If
             if (c > 0)
             {
                 positive_digit++;
-                Console.WriteLine(positive_digit);
+                
             }
 
-
+            Console.WriteLine(positive_digit);
         }
         static void if5()
         {
@@ -91,40 +85,42 @@ namespace If
             int b = 25;
             int c = 14;
 
-            int positive_digit = 0;
+            int PositiveDigit = 0;
             int negative_digit = 0;
 
 
             if (a > 0)
             {
-                positive_digit++;
+                PositiveDigit++;
             }
-            else
+            else if(a < 0)
             {
                 negative_digit++;
             }
 
             if (b > 0)
             {
-                positive_digit++;
+                PositiveDigit++;
             }
-            else
+            else if (b < 0)
             {
                 negative_digit++;
             }
 
             if (c > 0)
             {
-                positive_digit++;
-                Console.WriteLine(positive_digit);
-                Console.WriteLine(negative_digit);
+                PositiveDigit++;
+                
             }
-            else
+            else if (c < 0)
             {
                 negative_digit++;
-                Console.WriteLine(positive_digit);
-                Console.WriteLine(negative_digit);
+                
             }
+
+
+            Console.WriteLine(PositiveDigit);
+            Console.WriteLine(negative_digit);
         }
         static void if6()
         {
@@ -651,11 +647,78 @@ namespace If
                 f = -1;
             }
         }
+        static void if28()
+        {
+            int Y = 1209;
+
+            if ((Y % 100) == 0)
+                if ((Y % 400) == 0)
+                {
+                    Console.WriteLine("366");
+                }
+                else
+                {
+                    Console.WriteLine("365");
+                }
+                else if((Y % 4) == 0) 
+                { 
+                    Console.WriteLine("366");
+                } 
+                else 
+                { 
+                    Console.WriteLine("365");
+                } 
+        }
+        static void if29()
+        {
+            int digit = 10;
+
+            if (digit < 0 && (digit % 2) == 0)
+            {
+                Console.WriteLine("отрицательное четное число");
+            }
+            else if (digit < 0 && (digit % 2) != 0)
+            {
+                Console.WriteLine("отрицательное нечетное число");
+            }
+            else if (digit > 0 && (digit % 2) != 0)
+            {
+                Console.WriteLine("положительное нечетное число");
+            }
+            else if (digit > 0 && (digit % 2) == 0)
+            {
+                Console.WriteLine("положительное четное число");
+            }
+            else if (digit == 0)
+            {
+                Console.WriteLine("нулевое число");
+            }
+        }
+        static void if30()
+        {
+            int digit = 10;
+
+            if ((digit / 100) < 10 && (digit % 2) == 0)
+            {
+                Console.WriteLine("четное двузначное число");
+            }
+            else if ((digit / 100) > 1 && (digit % 2) != 0)
+            {
+                Console.WriteLine("нечетное трехзначное число");
+            }
+            else if ((digit / 100) < 1 && (digit % 2) != 0)
+            {
+                Console.WriteLine("нечетное двузначное число");
+            }
+            else if ((digit / 100) > 1 && (digit % 2) != 0)
+            {
+                Console.WriteLine("четное трехзначное число");
+            }
 
 
+        }
 
-
-
+        //DONE
 
 
     }

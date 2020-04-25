@@ -6,7 +6,7 @@ namespace Case
     {
         static void Main()
         {
-            Case16();
+            Case18();
         }
 
         static void Case1()
@@ -591,90 +591,90 @@ namespace Case
         {
             int years = 27;
 
-            if(years < 20 && years > 69)
+            if (years < 20 && years > 69)
             {
                 Console.WriteLine("ошибка");
-                    
+
             }
             else
             {
 
-            
-            switch (years / 10)
-            {
-                case 2:
-                    Console.WriteLine("двадцать ");
-                    break;
-                case 3:
-                    Console.WriteLine("тридцать ");
-                    break;
-                case 4:
-                    Console.WriteLine("сорок ");
-                    break;
-                case 5:
-                    Console.WriteLine("пятдесят ");
-                    break;
-                case 6:
-                    Console.WriteLine("шестьдесят ");
-                    break;
-            }
 
-            switch (years % 10)
-            {
-                case 1:
-                    Console.WriteLine("один ");
-                    break;
-                case 2:
-                    Console.WriteLine("два ");
-                    break;
-                case 3:
-                    Console.WriteLine("три ");
-                    break;
-                case 4:
-                    Console.WriteLine("четыре ");
-                    break;
-                case 5:
-                    Console.WriteLine("пять ");
-                    break;
-                case 6:
-                    Console.WriteLine("шесть ");
-                    break;
-                case 7:
-                    Console.WriteLine("семь ");
-                    break;
-                case 8:
-                    Console.WriteLine("восемь ");
-                    break;
-                case 9:
-                    Console.WriteLine("девять ");
-                    break;
-            }
+                switch (years / 10)
+                {
+                    case 2:
+                        Console.WriteLine("двадцать ");
+                        break;
+                    case 3:
+                        Console.WriteLine("тридцать ");
+                        break;
+                    case 4:
+                        Console.WriteLine("сорок ");
+                        break;
+                    case 5:
+                        Console.WriteLine("пятдесят ");
+                        break;
+                    case 6:
+                        Console.WriteLine("шестьдесят ");
+                        break;
+                }
 
-            switch (years % 10)
-            {
-                case 0:
-                case 5:
-                case 6:
-                case 7:
-                case 8:
-                case 9:
-                    Console.WriteLine("лет");
-                    break;
-                case 1:
-                    Console.WriteLine("год");
-                    break;
-                case 2:
-                case 3:
-                case 4:
-                    Console.WriteLine("года");
-                    break;
-            }
+                switch (years % 10)
+                {
+                    case 1:
+                        Console.WriteLine("один ");
+                        break;
+                    case 2:
+                        Console.WriteLine("два ");
+                        break;
+                    case 3:
+                        Console.WriteLine("три ");
+                        break;
+                    case 4:
+                        Console.WriteLine("четыре ");
+                        break;
+                    case 5:
+                        Console.WriteLine("пять ");
+                        break;
+                    case 6:
+                        Console.WriteLine("шесть ");
+                        break;
+                    case 7:
+                        Console.WriteLine("семь ");
+                        break;
+                    case 8:
+                        Console.WriteLine("восемь ");
+                        break;
+                    case 9:
+                        Console.WriteLine("девять ");
+                        break;
+                }
+
+                switch (years % 10)
+                {
+                    case 0:
+                    case 5:
+                    case 6:
+                    case 7:
+                    case 8:
+                    case 9:
+                        Console.WriteLine("лет");
+                        break;
+                    case 1:
+                        Console.WriteLine("год");
+                        break;
+                    case 2:
+                    case 3:
+                    case 4:
+                        Console.WriteLine("года");
+                        break;
+                }
             }
         }
         static void Case17()
         {
             int a = 14;
-            if(a < 10 && a > 40)
+            if (a < 10 && a > 40)
             {
                 Console.WriteLine("ошибка");
             }
@@ -745,12 +745,145 @@ namespace Case
                 }
             }
         }
+        static void Case18()
+        {
+            int N = 200;
+
+
+            switch (N / 100)
+            {
+                case 1:
+                    Console.WriteLine("сто ");
+                    break;
+                case 2:
+                    Console.WriteLine("двести ");
+                    break;
+                case 3:
+                    Console.WriteLine("триста ");
+                    break;
+                case 4:
+                    Console.WriteLine("четыреста ");
+                    break;
+                case 5:
+                    Console.WriteLine("пятьсот ");
+                    break;
+                case 6:
+                    Console.WriteLine("шестьсот ");
+                    break;
+                case 7:
+                    Console.WriteLine("семьсот ");
+                    break;
+                case 8:
+                    Console.WriteLine("восемьсот ");
+                    break;
+                case 9:
+                    Console.WriteLine("девятьсот ");
+                    break;
+            }
+
+            if ((N % 100) / 10 == 1)
+                switch (N % 100)
+                {
+                    case 10:
+                        Console.WriteLine("десять ");
+                        break;
+                    case 11:
+                        Console.WriteLine("одинадцать ");
+                        break;
+                    case 12:
+                        Console.WriteLine("двенадцать ");
+                        break;
+                    case 13:
+                        Console.WriteLine("тринадцать ");
+                        break;
+                    case 14:
+                        Console.WriteLine("четырнадцать ");
+                        break;
+                    case 15:
+                        Console.WriteLine("пятнадцать ");
+                        break;
+                    case 16:
+                        Console.WriteLine("шестнадцать ");
+                        break;
+                    case 17:
+                        Console.WriteLine("семнадцать ");
+                        break;
+                    case 18:
+                        Console.WriteLine("восемнадцать ");
+                        break;
+                    case 19:
+                        Console.WriteLine("девятнадцать ");
+                        break;
+                }
+            else
+            {
+                switch ((N % 100) / 10)
+                {
+                    case 2:
+                        Console.WriteLine("двадцать ");
+                        break;
+                    case 3:
+                        Console.WriteLine("тридцать ");
+                        break;
+                    case 4:
+                        Console.WriteLine("сорок ");
+                        break;
+                    case 5:
+                        Console.WriteLine("пятьдесят ");
+                        break;
+                    case 6:
+                        Console.WriteLine("шестьдесят ");
+                        break;
+                    case 7:
+                        Console.WriteLine("семьдесят ");
+                        break;
+                    case 8:
+                        Console.WriteLine("восемьдесят ");
+                        break;
+                    case 9:
+                        Console.WriteLine("девяносто ");
+                        break;
+                }
+
+                switch (N % 10)
+                {
+                    case 1:
+                        Console.WriteLine("один ");
+                        break;
+                    case 2:
+                        Console.WriteLine("два ");
+                        break;
+                    case 3:
+                        Console.WriteLine("три ");
+                        break;
+                    case 4:
+                        Console.WriteLine("четыре ");
+                        break;
+                    case 5:
+                        Console.WriteLine("пять ");
+                        break;
+                    case 6:
+                        Console.WriteLine("шесть ");
+                        break;
+                    case 7:
+                        Console.WriteLine("семь ");
+                        break;
+                    case 8:
+                        Console.WriteLine("восемь ");
+                        break;
+                    case 9:
+                        Console.WriteLine("девять ");
+                        break;
+                }
+            }
 
 
 
 
 
 
+
+        }
 
 
 
@@ -759,4 +892,5 @@ namespace Case
 
 
     }
+
 }

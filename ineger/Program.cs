@@ -8,7 +8,7 @@ namespace ineger
 
         static void Main()
         {
-            Integer23();
+            Integer28();
         }
         #region done
         static void Integer1()
@@ -253,15 +253,61 @@ namespace ineger
 
             Console.WriteLine($"{last_h_time}");
         }
+        static void Integer24()
+        {
+            int K = 26;
 
+            Console.WriteLine(K % 7);
 
+        }
+        static void Integer25()
+        {
+            int K = 26;
+
+            Console.WriteLine((K + 3) % 7);
+
+        }
+        static void Integer26()
+        {
+            int K = 26;
+
+            Console.WriteLine((K % 7) + 1);
+
+        }
+        static void Integer27()
+        {
+            int K = 26;
+
+            Console.WriteLine((K + 5) % 7);
+        }
+        static void Integer28()
+        {
+            int K = 26;
+            int N = 5;
+
+            Console.WriteLine(((K + 5) % 7) % N);
+        }
+        static void Integer29()
+        {
+            int A = 10;
+            int B = 20;
+            int C = 5;
+
+            Console.WriteLine((A / C) * (B / C));
+        }
+        static void Integer30()
+        {
+            int year = 2019;
+
+            Console.WriteLine((year / 100) + 1);
+        }
         #endregion
 
-        
 
-        
+        //DONE
 
-        
+
+
 
 
     }

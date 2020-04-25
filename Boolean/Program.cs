@@ -20,7 +20,7 @@ namespace Boolean
         {
             int A = 10;
 
-            return A < 0;
+            return (A % 2) != 0;
         }
 
         public static bool Boolean3()
@@ -52,7 +52,7 @@ namespace Boolean
             int B = 20;
             int C = 30;
 
-            return A < B && B < C && C > A;
+            return A < B && B < C;
         }
 
         public static bool Boolean7()
@@ -61,7 +61,7 @@ namespace Boolean
             int B = 20;
             int C = 30;
 
-            return A > B && B < C;
+            return (A < B && B < C) || (C < B && B < A);
         }
 
         public static bool Boolean8()
@@ -120,7 +120,7 @@ namespace Boolean
             int B = 20;
             int C = 30;
 
-            return A > 0 && C < 0 && B < 0 || B > 0 && A < 0 && C < 0 || C > 0 && A < 0 && B < 0;
+            return (A > 0 && C < 0 && B < 0) || (B > 0 && A < 0 && C < 0) || (C > 0 && A < 0 && B < 0);
         }
 
         public static bool Boolean15()
@@ -301,6 +301,50 @@ namespace Boolean
             int C = 30;
 
             return A < (B + C) && B < (A + C) && C < (A + B);
+        }
+
+        public static bool Boolean34()
+        {
+            int x = 5;
+            int y = 7;
+
+            return (x % 2) != 0 && (y % 2) != 0;
+        }
+        public static bool Boolean35()
+        {
+            int x = 5;
+            int y = 7;
+            int x2 = 6;
+            int y2 = 8;
+
+            return ((x % 2) != 0 && (y % 2) != 0) && ((x2 % 2) == 0 && (y2 % 2) == 0);
+        }
+        public static bool Boolean36()
+        {
+            int x = 5;
+            int y = 7;
+            int x2 = 6;
+            int y2 = 8;
+
+            return ((x % 2) != 0 && (y % 2) != 0) && ((x2 % 2) != 0 && (y2 % 2) != 0) || ((x % 2) == 0 && (y % 2) == 0) && ((x2 % 2) == 0 && (y2 % 2) == 0);
+        }
+        public static bool Boolean37()
+        {
+            int x = 5;
+            int y = 7;
+            int x2 = 6;
+            int y2 = 8;
+
+            return ((x % 2) != 0 && (y % 2) != 0) && ((x2 % 2) == 0 && (y2 % 2) == 0);
+        }
+        public static bool Boolean38()
+        {
+            int x = 5;
+            int y = 7;
+            int x2 = 6;
+            int y2 = 8;
+
+            return ((x % 2) != 0 && (y % 2) != 0) && ((x2 % 2) == 0 && (y2 % 2) == 0);
         }
     }
 }
