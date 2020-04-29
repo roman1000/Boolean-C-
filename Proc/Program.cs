@@ -16,17 +16,43 @@ namespace Proc
         }
         static int Sign(int X)
         {
-            if(X < 0) return -1;
-            else if(X == 0) return 0;
-            else if(X > 0) return 1;
+            if (X < 0) return -1;
+            else if (X == 0) return 0;
+            else if (X > 0) return 1;
+            else return 0;
         }
-        static int RootsCount(int A, int B, int C, int D)
+        static int RootsCount(int A, int B, int C)
         {
-            D = (B * B) - 4 * A * C;
+            int D = (B * B) - 4 * A * C;
 
             if (D < 0) return -1;
-            if (D == 0) return 0;
-            if (D > 0) return 1;
+            else if (D == 0) return 0;
+            else if (D > 0) return 1;
+            else return 0;
         }
+        static double CircleS(int R)
+        {
+            for (int i = 1; i <= 3; i++)
+            {
+                return Math.PI * (R * R);
+            }
+        }
+        static double RingS(int R1, int R2)
+        {
+
+
+            for (int i = 1; i <= 3; i++)
+            {
+                return Math.PI * ((R1 * R1) - (R2 * R2));
+            }
+        }
+
+
+
+
+
+
+
+
     }
 }
