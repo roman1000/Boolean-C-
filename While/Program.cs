@@ -422,10 +422,10 @@ namespace While
         }
         static void While28()
         {
-            int A = 2;
-            int AK1 = 1;
-            int ε = 100;
-            int K = 2;
+            double A = 2;
+            double AK1 = 1;
+            double ε = 100;
+            double K = 2;
 
             while (A < ε)
             {
