@@ -4,7 +4,6 @@ D:\C#\Beginer\Case\bin\Debug\netcoreapp3.1\Case.runtimeconfig.json
 D:\C#\Beginer\Case\bin\Debug\netcoreapp3.1\Case.runtimeconfig.dev.json
 D:\C#\Beginer\Case\bin\Debug\netcoreapp3.1\Case.dll
 D:\C#\Beginer\Case\bin\Debug\netcoreapp3.1\Case.pdb
-D:\C#\Beginer\Case\obj\Debug\netcoreapp3.1\Case.csprojAssemblyReference.cache
 D:\C#\Beginer\Case\obj\Debug\netcoreapp3.1\Case.csproj.CoreCompileInputs.cache
 D:\C#\Beginer\Case\obj\Debug\netcoreapp3.1\Case.AssemblyInfoInputs.cache
 D:\C#\Beginer\Case\obj\Debug\netcoreapp3.1\Case.AssemblyInfo.cs

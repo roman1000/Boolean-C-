@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "While", "While\While.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Series", "Series\Series.csproj", "{C45945FE-4F9D-42E5-91BB-CC9F2045514B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proc", "Proc\Proc.csproj", "{E6BD931C-678A-4CAD-ACC6-1CA38FE98648}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proc", "Proc\Proc.csproj", "{271E6DA3-ADE2-4AEB-98F2-265505ADBF3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,10 +65,10 @@ Global
 		{C45945FE-4F9D-42E5-91BB-CC9F2045514B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C45945FE-4F9D-42E5-91BB-CC9F2045514B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C45945FE-4F9D-42E5-91BB-CC9F2045514B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E6BD931C-678A-4CAD-ACC6-1CA38FE98648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E6BD931C-678A-4CAD-ACC6-1CA38FE98648}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E6BD931C-678A-4CAD-ACC6-1CA38FE98648}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E6BD931C-678A-4CAD-ACC6-1CA38FE98648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271E6DA3-ADE2-4AEB-98F2-265505ADBF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271E6DA3-ADE2-4AEB-98F2-265505ADBF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271E6DA3-ADE2-4AEB-98F2-265505ADBF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271E6DA3-ADE2-4AEB-98F2-265505ADBF3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,12 +2,3 @@ D:\C#\Beginer\Beginer\obj\Debug\netcoreapp3.1\Beginer.csprojAssemblyReference.ca
 D:\C#\Beginer\Beginer\obj\Debug\netcoreapp3.1\Beginer.csproj.CoreCompileInputs.cache
 D:\C#\Beginer\Beginer\obj\Debug\netcoreapp3.1\Beginer.AssemblyInfoInputs.cache
 D:\C#\Beginer\Beginer\obj\Debug\netcoreapp3.1\Beginer.AssemblyInfo.cs
-D:\C#\Beginer\Beginer\bin\Debug\netcoreapp3.1\Beginer.exe
-D:\C#\Beginer\Beginer\bin\Debug\netcoreapp3.1\Beginer.deps.json
-D:\C#\Beginer\Beginer\bin\Debug\netcoreapp3.1\Beginer.runtimeconfig.json
-D:\C#\Beginer\Beginer\bin\Debug\netcoreapp3.1\Beginer.runtimeconfig.dev.json
-D:\C#\Beginer\Beginer\bin\Debug\netcoreapp3.1\Beginer.dll
-D:\C#\Beginer\Beginer\bin\Debug\netcoreapp3.1\Beginer.pdb
-D:\C#\Beginer\Beginer\obj\Debug\netcoreapp3.1\Beginer.dll
-D:\C#\Beginer\Beginer\obj\Debug\netcoreapp3.1\Beginer.pdb
-D:\C#\Beginer\Beginer\obj\Debug\netcoreapp3.1\Beginer.genruntimeconfig.cache
